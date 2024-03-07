@@ -1,0 +1,121 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 111px;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.grey_box {
+    background-color: #3D3D3D;
+    height: 70px;
+}
+
+.sign_in {
+    margin-left: 500px;
+}
+
+.register {
+    margin-left: 60px;  
+}
+.sign_in, .register , a, a:visited, a:hover, a:active, a:focus {
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 0;
+
+    a:visited{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+}
+
+.redline {
+    background-color: rgb(207, 30, 30);
+    height: 10px;
+}
+
+.container {
+    display: flex;
+    margin-left: 500px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.input-group h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input {
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0;
+}
+
+.final {
+    margin-top: 40px;
+}
+
+#submit-button {
+    text-decoration: none;
+    background-color: rgb(207, 30, 30);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    margin-left: 500px;
+}
+
+#forgot {
+    text-decoration: underline red 2px;
+    color: black;
+    border: none;
+    background-color: transparent;
+    margin-left: 150px;
+
+}
+
+#register-link {
+    text-decoration: underline red 2px;
+}
+
+#dont {
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+#footer {
+    background-color: #3D3D3D;
+    height: 65px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
